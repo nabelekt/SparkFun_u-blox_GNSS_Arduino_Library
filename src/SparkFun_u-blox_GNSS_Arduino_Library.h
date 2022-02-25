@@ -625,7 +625,7 @@ public:
 #define defaultMaxWait 1100
 #endif
 
-  //New in v2.0: allow the payload size for packetCfg to be changed
+  // New in v2.0: allow the payload size for packetCfg to be changed
   bool setPacketCfgPayloadSize(size_t payloadSize); // Set packetCfgPayloadSize
 
   // Begin communication with the GNSS. Advanced users can assume success if required. Useful if the port is already outputting messages at high navigation rate.
